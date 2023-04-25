@@ -1,0 +1,20 @@
+/* Essa propriedade box-sizing: border-box n deixar o que eu acrescentar somar com uma borda se eu colocar se eu disser
+  que é 200px fica os 200px */
+* {
+  box-sizing: border-box;
+}
+
+/* O root é o elemento mais elevado do HTML poder ser o mesmo HTML */
+:root {
+  --primary-color: #0b498f;
+  --gray-100: #c4c4c4;
+  --gray-200: #00000080;
+  --black: #000;
+  --white: #fff;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}

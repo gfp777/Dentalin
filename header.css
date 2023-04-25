@@ -1,0 +1,23 @@
+.header {
+  margin-top: 30px;
+  margin-left: 24px;
+  margin-right: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__start-logo {
+  width: 116.61px;
+  height: 30.88px;
+}
+
+.header__start-link {
+  border: 2px solid #0b498f;
+  border-radius: 5px;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 9px;
+  text-decoration: none;
+  padding: 10px 26px 10px 23px;
+  width: 130px;
+  height: 32px;
+}
