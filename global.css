@@ -18,3 +18,31 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.header,
+.first__section,
+.second__section,
+.third__section,
+.fourth__section,
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.second__section,
+.third__section,
+.fourth__section {
+  margin-top: 80px;
+}
+
+@media (min-width: 768px) {
+  .header,
+  .first__section,
+  .second__section,
+  .third__section,
+  .fourth__section,
+  .footer {
+    padding: 0 120px;
+  }
+}

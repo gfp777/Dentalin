@@ -1,23 +1,44 @@
 .header {
   margin-top: 30px;
-  margin-left: 24px;
-  margin-right: 24px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__start-logo {
-  width: 116.61px;
-  height: 30.88px;
+  width: 116px;
+  height: 30px;
 }
 
 .header__start-link {
-  border: 2px solid #0b498f;
-  border-radius: 5px;
-  font-family: "Poppins-Medium", sans-serif;
-  font-size: 9px;
   text-decoration: none;
-  padding: 10px 26px 10px 23px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
   width: 130px;
   height: 32px;
+  font-size: 10px;
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__start-logo {
+    margin-top: 50px;
+    width: 183px;
+    height: 45px;
+  }
+
+  .header__start-link {
+    width: 183px;
+    height: 45px;
+    font-size: 14px;
+    margin-top: 54px;
+  }
 }
