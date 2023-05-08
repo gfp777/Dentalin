@@ -19,7 +19,7 @@
   font-weight: 600;
 }
 
-.third__section-items-container {
+.third__section-items {
   display: flex;
   flex-direction: column;
 }
